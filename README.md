@@ -31,11 +31,12 @@ q_1 \\
 q_2 \\
 \end{bmatrix} 
 = \begin{bmatrix}
-\text{self.Kp} + \frac{\text{self.Ki} \cdot \text{self.Ts}}{2} + \frac{\text{self.Kd}}{\text{self.Ts}} \\
--\text{self.Kp} + \frac{\text{self.Ki} \cdot \text{self.Ts}}{2} - \frac{2 \cdot \text{self.Kd}}{\text{self.Ts}} \\
-\frac{\text{self.Kd}}{\text{self.Ts}} \\
+Kp + \frac{Ki \cdot Ts}{2} + \frac{Kd}{Ts} \\
+-Kp + \frac{Ki \cdot Ts}{2} - \frac{2 \cdot Kd}{Ts} \\
+\frac{Kd}{Ts} \\
 \end{bmatrix}
 $$
+
 
 
 
