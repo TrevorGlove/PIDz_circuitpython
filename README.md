@@ -1,9 +1,9 @@
 # PIDz_circuitpython
 Librería para PID discreto para Circuitpython. Está implementado en un objeto que actualiza los errores pasados y las variables de control dentro de una ecuación de diferencias.
 
-### v1.0
+## v1.0
 
-```python
+### ```python
 class(PID)
 ```
 
