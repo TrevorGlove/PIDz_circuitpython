@@ -5,7 +5,7 @@ Librería para PID discreto para Circuitpython. Está implementado en un objeto 
 
 ### 
 ```python
-class(PID)
+class PID(self):
 ```
 
 $$
