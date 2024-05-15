@@ -3,7 +3,8 @@ Librería para PID discreto para Circuitpython. Está implementado en un objeto 
 
 ## v1.0
 
-### ```python
+### 
+```python
 class(PID)
 ```
 
