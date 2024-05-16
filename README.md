@@ -14,9 +14,9 @@ class PID:
         self.Ts = 0
         self.update()
 ```
-La clase inicializa declarando en valor cero las constantes de PID. En caso en medio del control se requiere una actualiación de las constantes, basta con cambiar los valores llamando la objeto para actualizar la matriz de constantes.  
+Esta biblioteca de Python proporciona una implementación de controlador PID adecuada para sistemas de control discretos en microcontroladores. El controlador permite ajustar dinámicamente las ganancias proporcionales (Kp), integrales (Ki) y derivadas (Kd) sin llamar explícitamente a una función de actualización. La biblioteca utiliza el módulo numpy de la biblioteca ulab de Circuitpython para realizar cálculos numéricos eficientes.
 
-Esta versión solo cuenta con la ecuación de diferencias por método de integración de sumas trapezoidales.
+En esta versión el controlador emplea solo el método de integración trapezoidal para el control PID en tiempo discreto.
 
 $$
 c[k] = c[k-1] + q_0 \cdot e[k] + q_1 \cdot e[k-1] + q_2 \cdot e[k-2]
